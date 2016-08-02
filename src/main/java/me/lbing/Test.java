@@ -12,7 +12,7 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
-        // System.out.println("This is println message.");
+        System.out.println("This is println message.");
 
         // 记录debug级别的信息
         logger.debug("This is debug message.");
