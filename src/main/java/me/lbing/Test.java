@@ -12,6 +12,7 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
+        Logger rootLogger = logger.getRootLogger();
         System.out.println("This is println message.");
 
         // 记录debug级别的信息
